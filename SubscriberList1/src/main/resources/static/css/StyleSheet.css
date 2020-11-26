@@ -1,0 +1,28 @@
+@charset"ISO-8859-1";
+
+h1 {
+  color: red;
+  font-size:20px;
+}
+.style
+{
+ font-size: 48ex;
+  margin: 1ex;
+ font-weight: bold;
+ text-align: center;
+ border-bottom: 0ex;
+ padding-bottom: 0ex;
+}
+.title
+{
+  border:solid;
+  font-size: 48px;
+  color: green;
+}
+.header{
+	background: url(https://www.kunocreative.com/hubfs/digital-marketing-blogs.jpg) no-repeatcenter center;
+    background-size: cover;
+    height: 800px;
+    text-align:center;
+    background-colour:#112249;
+}

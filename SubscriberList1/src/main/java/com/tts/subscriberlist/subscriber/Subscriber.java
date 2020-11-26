@@ -80,6 +80,9 @@ import org.hibernate.annotations.CreationTimestamp;
 		this.signedUp = signedUp;
 	}
 
+	public Long getId() {
+		return id;
+	}
 
 	@Override
 	public String toString() {

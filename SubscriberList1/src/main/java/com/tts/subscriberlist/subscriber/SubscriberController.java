@@ -28,4 +28,17 @@ public class SubscriberController {
 		model.addAttribute("userName", subscriber.getUserName());
 		return "subscriber/result";
 	}
+	
+//	 @Query("SELECT t FROM Subscriber t WHERE t.lastName = 'Johnson'")
+//    public List<Subscriber> findById();
+
+//@Query(value = "SELECT * FROM Subscriber t WHERE " +
+        //"LOWER(t.firstName) LIKE LOWER(CONCAT('%','Johnson', '%')))", [testing search value]
+//        "LOWER(t.lastName) LIKE LOWER(CONCAT('%',:searchTerm, '%'))",
+//        nativeQuery = true)
+//List<Subscriber> findBySearchTermNative(@Param("searchTerm") String searchTerm);
+
+	
+	
+	
 }
